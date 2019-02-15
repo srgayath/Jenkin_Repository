@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Jen_Demo.NewTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.379 sec <<< FAILURE!
+NewTest(Jen_Demo.NewTest)  Time elapsed: 0.159 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable is a directory: C:\Users\SRIVALLIPAVANAGAYATH\Downloads\chromedriver_win32
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:138)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Jen_Demo.NewTest.NewTest(NewTest.java:12)
+
